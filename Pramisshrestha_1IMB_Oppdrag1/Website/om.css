@@ -1,0 +1,102 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  font-family: sans-serif;
+  background: #f5f6f7;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #94BEE6;
+    padding: 1rem;
+    
+  }
+  
+  .logo img {
+    width: 80px; /* Adjust size of the image */
+    height: auto;
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+  }
+  
+  .nav-links li {
+    margin-left: 20px;
+  }
+  
+  .nav-links li a {
+    color: black;
+    text-decoration: none;
+    font-size:  1rem;
+    padding: 8px 12px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .nav-links li a:hover {
+    background-color: #fff;
+    border-radius: 20px;
+  }
+ 
+.training{
+  background-image: url("Ressurser_OsloLacrosse/Media/nr12.jpg");
+  background-size: cover;
+  color: #fff;
+}
+
+.header{
+  position: relative;
+  background: #94BEE6;
+  border-radius: 0%;
+  top: -1px;
+}
+
+.nav{
+  display: flex;
+  position: relative;
+  left: 550px;
+  top: -60px;
+
+}
+
+.knus{
+  position: relative;
+  left: 10vw;
+}
+.trening{
+  position: relative;
+  left: 9vw;
+}
+
+.gallery{
+  position: relative;
+  left: 8vw;
+}
+
+.knus{
+  position: relative;
+}
+
+.trenav{
+  position: relative;
+  left: -100px;
+}
+
+.panda{
+  position: relative;
+  height: 100px;
+}
+
+.text{
+  position: relative;
+  height: 100px;
+}
+
